@@ -24,4 +24,6 @@ function draw(){
     box1.display();
     box2.display();
     ground.display();
+
+    console.log("checking it again on next day ")
 }
