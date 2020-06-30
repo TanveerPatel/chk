@@ -14,6 +14,7 @@ class Box {
   display(){
     var pos =this.body.position;
     var angle = this.body.angle;
+    console.log("changing two files and uploading to github using gitbash")
     push();
     translate(pos.x, pos.y);
     rotate(angle);

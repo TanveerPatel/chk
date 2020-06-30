@@ -9,6 +9,7 @@ class Ground {
       World.add(world, this.body);
     }
     display(){
+      console.log("this is thrid file which i am changing ")
       var pos =this.body.position;
       rectMode(CENTER);
       fill(255);
